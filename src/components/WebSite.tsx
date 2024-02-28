@@ -1,7 +1,10 @@
+import HeaderApp from "./Header/HeaderApp"
 
 const WebSite = () => {
   return (
-    <div>WebSite</div>
+    <>
+      <HeaderApp/>
+    </>
   )
 }
 
