@@ -45,7 +45,7 @@ const HeaderTop = () => {
       )}
 
       {isMobile && (
-          <button className='btn-mobile'
+          <button className={`btn-mobile  ${showMenu ? 'fixed':''}`}
           onClick={()=>setShowMenu(!showMenu)}
           >
             {showMenu ? <IoClose/> : <GiHamburgerMenu/>}

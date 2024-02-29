@@ -17,7 +17,7 @@
   }
 
   @media (min-width:901px) {
-    padding-right: 2.5vw;
+    padding: 0 2.5vw;
   }
 
   
@@ -34,7 +34,7 @@
       gap: 2em;
 
       li{
-        padding: 10px;
+        
         border-radius: 15px;
         transition: all .6s ease-in-out;
         &:hover{
@@ -51,6 +51,8 @@
           font-size: 18px;
           font-weight: bold;
           transition: all .6s ease-in-out;
+          display: block;
+          padding: 10px;
         }
       }
 
@@ -58,6 +60,7 @@
   }
 
   .btn-mobile{
+    
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -69,13 +72,19 @@
     }
   }
 
+  .fixed{
+    position: fixed;
+    top: 4.5em;
+    right: 1.5em;
+  }
+
   .menu-mobile{
     position: fixed;
     top: 0;
     width: 100vw;
     height: 100vh;
-    background-color: transparent;
-    backdrop-filter: blur(4px);
+    background-color: #eaeaea;
+    backdrop-filter: blur(10px);
     transition: all .6s ease-in-out;
 
     ul{
@@ -86,12 +95,15 @@
       height: 100%;
       gap: 2em;
 
+
+
       li a{
         text-decoration: none;
         color: #242424;
         font-weight: bold;
         font-size: 20px;
         padding: 10px;
+        
       }
       
     }
