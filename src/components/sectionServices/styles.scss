@@ -1,10 +1,10 @@
 .section-services{
   background-color: #fffbf2;
   padding: 20px;
-
+  margin-bottom: 2em;
   .subtitle{
     color: #3167d9;
-    font-size: 1.6em;
+    font-size: calc(2em + .5vw);
     text-align: center;
     margin-top: 2em;
   }

@@ -27,6 +27,10 @@
       color: #3167d9;
       font-size: calc(2em + 1.5vw);
       text-align: center;
+
+      @media (max-width:345px){
+        font-size: 2em;
+      }
     }
 
     p{
