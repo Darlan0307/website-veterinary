@@ -8,7 +8,7 @@ const WebSite = () => {
       <HeaderApp/>
       <SectionServices/>
       <SectionSkills/>
-      <SectionServices/>
+
     </>
   )
 }

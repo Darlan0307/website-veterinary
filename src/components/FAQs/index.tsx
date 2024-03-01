@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './styles.scss'
-
+import { IoIosArrowDown } from "react-icons/io";
 const Faq = () => {
   const [activeQuestion, setActiveQuestion] = useState(null);
 
@@ -15,8 +15,23 @@ const Faq = () => {
     {
       question: 'Atendimento personalizado e com carinho',
       answer: [
-        "cada animal é único e merece atenção especial.",
+        "Cada animal é único e merece atenção especial.",
         "Levamos o tempo necessário para ouvir suas preocupações e responder às suas perguntas."
+      ],
+    },
+
+    {
+      question: 'Preços competitivos',
+      answer: [
+        "Preços competitivos para todos os serviços.",
+        "Planos de saúde para animais de estimação para ajudar você a controlar os custos dos cuidados com o seu pet."
+      ],
+    },
+    {
+      question: 'Excelente reputação',
+      answer: [
+        "Excelente reputação na comunidade",
+        "Membro da Associação Brasileira de Clínicas Veterinárias e Hospitais Veterinários (ABCV)"
       ],
     },
 
@@ -30,7 +45,10 @@ const Faq = () => {
     <div className='cards'>
       {questions.map((question, index) => (
         <div key={index} onClick={() => handleQuestionClick(index)}>
-          <h3>{question.question}</h3>
+          <div className='title-card'>
+            <h3>{question.question}</h3>
+            <span className={activeQuestion == index ? 'active' : ''}><IoIosArrowDown/></span>
+          </div>
 
           {activeQuestion === index && (
             <ul>
