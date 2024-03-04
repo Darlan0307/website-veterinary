@@ -2,6 +2,8 @@ import './styles.scss'
 import { MdHealthAndSafety } from "react-icons/md";
 import { TbVaccine } from "react-icons/tb";
 import { FaTooth } from "react-icons/fa";
+import { PiStethoscopeThin } from "react-icons/pi";
+import { MdOutlinePets } from "react-icons/md";
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 const dataServices = [
@@ -25,7 +27,21 @@ const dataServices = [
     title:"Odontologia",
     description:" Limpeza de tártaro, profilaxia bucal, extração de dentes e tratamento de doenças periodontais.",
     link:"https://www.nucleodoconhecimento.com.br/veterinaria"
-  }
+  },
+  {
+    id:3,
+    icon: <MdOutlinePets/>,
+    title:"Controle de natalidade",
+    description:"Castração e ovariohisterectomia para evitar reprodução indesejada.",
+    link:"https://www.nucleodoconhecimento.com.br/veterinaria"
+  },
+  {
+    id:4,
+    icon: <PiStethoscopeThin/>,
+    title:"Fisioterapia",
+    description:"Reabilitação de animais que sofreram lesões ou cirurgias.",
+    link:"https://www.nucleodoconhecimento.com.br/veterinaria"
+  },
 ]
 
 const SectionServices = () => {

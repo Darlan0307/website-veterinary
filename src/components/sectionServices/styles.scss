@@ -20,8 +20,13 @@
         max-width: 350px;
         display: flex;
         flex-direction: column;
-        gap: 1em;
         border-radius: 15px;
+        justify-content: space-between;
+        min-height: 350px;
+
+        @media (max-width:400px){
+          gap: 1em;
+        }
         .icon-service{
           background-color: #3167d9;
           width: 60px;
@@ -43,6 +48,7 @@
         p{
           line-height: 1.5em;
           font-size: 1.1em;
+          min-height: 110px;
         }
 
         
