@@ -1,0 +1,107 @@
+.section-testimony{
+  margin-top: -4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+  padding: 20px;
+
+  .subtitle{
+    color: #3167d9;
+    font-size: calc(2em + .5vw);
+    text-align: center;
+    margin-top: 2em;
+  }
+
+  .content-testimony{
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    padding: 10px;
+    .bg-olds{
+      position: absolute;
+      z-index: -1;
+      width: 100%;
+      height: 90%;
+      @media (max-width:700px){
+        display: none;
+      }
+    }
+
+    .container-carosel{ 
+      .swiper-pagination{
+
+        @media (max-width:700px){
+          
+          position: relative;
+          bottom: 0;
+          
+          span{
+            width: 20px;
+            height: 20px;
+          }
+          
+        }
+      }
+
+      .carosel-card{
+        display: grid;
+        place-content: center;
+        padding: 20px;
+        
+        .card-testimony{
+          display: flex;
+
+          @media (max-width:700px){
+            flex-direction: column;
+            align-items: center;    
+          }
+          
+          img{
+            height: 350px;
+            width:250px;
+          }
+
+          .content-text{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            
+            @media (max-width:700px) {
+              gap: 1em;
+            }
+            p{
+              line-height: 1.6em;
+              font-size: 1.2em;
+              padding: 2em 1em 0 0;
+              position: relative;
+
+              @media (max-width:500px) {
+                padding: 0;
+                padding-top: 1em;
+              }
+              &::before{
+                content: "“";
+                position: absolute;
+                left: 0;
+                top: 0;
+                font-size: 5em;
+                color: #3167d9;
+                font-family: Arial, Helvetica, sans-serif;
+              }
+            }
+
+            h3{
+              color: #3167d9;
+              font-size: 1.6em;
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+}
+
+
