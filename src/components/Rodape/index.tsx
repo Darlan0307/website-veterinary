@@ -1,5 +1,4 @@
 import './styles.scss'
-import { FaClock } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
