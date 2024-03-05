@@ -28,8 +28,8 @@
       }
       .icon{
         background-color: #3167d9;
-        width: 55px;
-        height: 55px;
+        width: 45px;
+        height: 45px;
         border-radius: 50%;
         display: grid;
         place-content: center;
@@ -40,8 +40,10 @@
         }
       }
 
-      p{
+      a{
         text-align: center;
+        color: #3167d9;
+        font-size: 1.1em;
       }
     }
 

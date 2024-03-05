@@ -8,8 +8,8 @@ const HeaderBottom = () => {
       <div className='container-info'>
         <h2>Victoría Justino</h2>
         <p>Sua Veterinária de Confiança em Jaboatão dos Guararapes</p>
-        <a href='#' className='link-insta'>Fale Comigo</a>
-        <a href='#' className='link-phone'><FaPhoneAlt/> <span>(81) 91234-4567</span></a>
+        <a href='https://www.instagram.com/vivisz_01/' target='_blank' className='link-insta' rel='noopener noreferrer'>Fale Comigo</a>
+        <a href='https://api.whatsapp.com/send?phone=5581985200782&text=Oii!!%20tudo%20bom?' target='_blank' className='link-phone' rel='noopener noreferrer'><FaPhoneAlt/> <span>(81) 98520-00782</span></a>
       </div>
       <img className='perfil' src={imgHeader} alt="imagem de perfil" />
     </section>

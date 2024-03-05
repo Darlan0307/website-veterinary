@@ -46,7 +46,7 @@ const dataServices = [
 
 const SectionServices = () => {
   return (
-    <section className='section-services'>
+    <section className='section-services' id='servicos'>
       <h2 className='subtitle'>Serviços de alta qualidade para você</h2>
 
     <Swiper

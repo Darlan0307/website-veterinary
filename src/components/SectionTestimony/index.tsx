@@ -47,7 +47,7 @@ const SectionTestimony = () => {
   })
 
   return (
-    <section className='section-testimony'>
+    <section className='section-testimony' id='depoimentos'>
       <h2 className='subtitle'>Testemunhos dos paciêntes</h2>
 
      <div className="content-testimony">

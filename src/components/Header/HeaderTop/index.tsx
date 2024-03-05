@@ -29,16 +29,16 @@ const HeaderTop = () => {
         <nav className='menu-desktop'>
         <ul>
           <li>
-            <a href="#">Serviços</a>
+            <a href="#servicos">Serviços</a>
           </li>
           <li>
-            <a href="#">Sobre</a>
+            <a href="#depoimentos">Depoimentos</a>
           </li>
           <li>
-            <a href="#">Depoimentos</a>
+            <a href="#localizacao">localização</a>
           </li>
           <li>
-            <a href="#">Contatos</a>
+            <a href="#contatos">Contatos</a>
           </li>
         </ul>
       </nav>
@@ -55,18 +55,18 @@ const HeaderTop = () => {
       {isMobile && (
         <nav className={`menu-mobile ${showMenu ? 'open' : 'close'}`}>
           <ul onClick={()=>setShowMenu(false)}>
-            <li>
-              <a href="#">Serviços</a>
-            </li>
-            <li>
-              <a href="#">Sobre</a>
-            </li>
-            <li>
-              <a href="#">Depoimentos</a>
-            </li>
-            <li>
-              <a href="#">Contatos</a>
-            </li>
+          <li>
+            <a href="#servicos">Serviços</a>
+          </li>
+          <li>
+            <a href="#depoimentos">Depoimentos</a>
+          </li>
+          <li>
+            <a href="#localizacao">localização</a>
+          </li>
+          <li>
+            <a href="#contatos">Contatos</a>
+          </li>
           </ul>
         </nav>
       )}
