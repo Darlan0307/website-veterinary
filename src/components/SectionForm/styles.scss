@@ -1,0 +1,27 @@
+.section-form{
+  margin-top: -3em;
+  padding: 20px;
+  background-color: #f3f5f9;
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+
+  .subtitle{
+    color: #3167d9;
+    font-size: calc(2em + .5vw);
+    text-align: center;
+    margin-top: 2em;
+  }
+
+  .container-form-map{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+
+    @media (min-width:1000px){
+      flex-direction: row-reverse;
+      gap: .5em;
+    }
+  }
+}
