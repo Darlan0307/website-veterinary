@@ -86,6 +86,7 @@
     height: 100vh;
     background-color: #eaeaea;
     backdrop-filter: blur(10px);
+    z-index: 9;
     transition: all .6s ease-in-out;
 
     ul{
