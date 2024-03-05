@@ -1,5 +1,5 @@
 import Form from '../Form'
-import Map from '../Map'
+// import Map from '../Map'
 import './styles.scss'
 
 const SectionForm = () => {
@@ -7,7 +7,7 @@ const SectionForm = () => {
     <section className='section-form' id='localizacao'>
       <h2 className='subtitle'>Contate-nos para mais informações</h2>
       <div className='container-form-map'>
-        <Map/>
+        {/* <Map/> */}
         <Form/>
       </div>
     </section>
